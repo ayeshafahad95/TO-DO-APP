@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: #d32f2f;
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px black;
+    max-width: 350px;
+    width: 100%;
+}
+
+.container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px black;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.container input[type="text"]:focus {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #56ab2f, #a8e063);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background: linear-gradient(45deg, #a8e063, #56ab2f);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#taskList {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.task:hover {
+    transform: scale(1.02);
+}
+
+.task input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+}
+
+.task span {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+.task button {
+    padding: 4px 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 5px;
+}
+
+
+.edit-button {
+    background-color: #4CAF50;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+}
+
+.remove-button {
+    background-color: #f44336;
+}
+
+.remove-button:hover {
+    background-color: #d32f2f;
+}
+
+
+
+
+
+
